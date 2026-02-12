@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      antora-dark-theme:
+        specifier: ^0.1.3
+        version: 0.1.3
+
+packages:
+
+  antora-dark-theme@0.1.3:
+    resolution: {integrity: sha512-ch109OELS+4BQpA3khnW3ZNRJqOuC9hPNRjVwLuRq0fonPZlO69cLcdbjAaq/5wf0olGJR0l1RJCnZeR83XlqA==}
+
+snapshots:
+
+  antora-dark-theme@0.1.3: {}

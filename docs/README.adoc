@@ -1,0 +1,42 @@
+= D-Warden Documentation
+:description: Documentation source for D-Warden
+
+This directory contains the documentation source for D-Warden, managed using Antora.
+
+== Structure
+
+* `antora.yml`: Component descriptor for Antora.
+* `antora-playbook.yml`: Antora playbook configured for local development.
+* `modules/`: Contains the documentation content modules.
+** `ROOT/`: The default module.
+*** `pages/`: AsciiDoc source files.
+*** `nav.adoc`: Navigation structure.
+
+== Local Development
+
+This folder contains a local environment for documentation-related tools.
+
+=== Prerequisites
+
+* Node.js
+* pnpm
+
+=== Installation
+
+[source,bash]
+----
+pnpm install
+----
+
+=== Packages
+
+* `antora-dark-theme`: Provides a dark UI for the documentation.
+
+== Building the Docs
+
+To build the documentation site using Antora, you will typically run:
+
+[source,bash]
+----
+pnpx antora antora-playbook.yml
+----

@@ -1,0 +1,38 @@
+= D-Warden
+:description: A D-lang GUI for Bitwarden
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+
+D-Warden is a modern, cross-platform GUI client for Bitwarden built with the D programming language.
+
+== Features
+
+* [ ] Secure vault access
+* [ ] Item management
+* [ ] Password generation
+* [ ] Cross-platform support
+
+== Packaging & Installation
+
+The app's installer is configured to optimize Start Menu search. By using tokenized descriptions, users can find the app using keywords like "bit", "warden", and "password" without conflicting with other "bitwarden" results.
+
+Refer to `installer/setup.iss` for the Inno Setup configuration.
+
+
+== Getting Started
+
+=== Prerequisites
+
+* D compiler (DMD, LDC, or GDC)
+* DUB (package manager)
+
+=== Documentation
+
+Documentation is managed using Antora and can be found in the `docs/` folder.
+
+== License
+
+TBD

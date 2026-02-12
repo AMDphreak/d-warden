@@ -1,0 +1,27 @@
+### User Feedback: Naming Confusion between `antora.yml` and `antora-playbook.yml`
+
+This is a proposal/feedback based on the common developer intuition when setting up local or single-repository Antora projects.
+
+#### Current Naming Context
+In the current Antora workflow:
+1. **`antora.yml`** is the **Component Descriptor**.
+2. **`antora-playbook.yml`** is the **Playbook** (Site Config).
+
+For developers coming from other documentation tools (e.g., Hugo's `hugo.toml`, Jekyll's `_config.yml`, MkDocs' `mkdocs.yml`), there is a strong "root config" pattern where the eponymous file (e.g., `antora.yml`) is expected to be the global entry point for the build.
+
+In a single-repo project, seeing `antora.yml` and `antora-playbook.yml` co-located is often misleading:
+- Users frequently mistake `antora.yml` for the site configuration.
+- The nomenclature "Playbook" is unique to Antora's multi-repo philosophy, which—while powerful—adds cognitive load for simple "docs-in-repo" stacks.
+
+#### Proposal
+To improve the "Day 1" experience and reduce ambiguity in single-repo setups:
+
+1. **Naming Swap/Alias**: Consider allowing the Playbook to be named `antora.yml`.
+2. **Component Descriptor Rename**: Consider a more descriptive default for the component marker, such as `antora-component.yml` or `antora-index.yml`.
+3. **Ambiguity Handling**: If `antora.yml` is used, Antora could detect the schema (presence of `site:` key vs `name:`/`version:`/`nav:`) to determine its role.
+
+#### Why it matters
+As more users adopt Antora for local development and single-repo projects, aligning with standard SSG conventions regarding the "eponymous root config" would significantly lower the barrier to entry.
+
+---
+*Note: This issue was submitted on behalf of a user who encountered this friction while setting up a D language project workspace.*

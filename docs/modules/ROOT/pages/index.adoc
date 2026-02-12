@@ -1,0 +1,13 @@
+= D-Warden Documentation
+
+Welcome to the D-Warden documentation.
+
+D-Warden is a D-lang GUI for Bitwarden.
+
+== Overview
+
+D-Warden aims to provide a fast and secure desktop experience for managing your Bitwarden vault.
+
+== Next Steps
+
+Check out the xref:index.adoc[Getting Started] guide (coming soon).
