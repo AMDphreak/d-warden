@@ -1,10 +1,36 @@
-= D-Warden
+ifndef::env-github[:icons: font]
+:toc: preamble
+:toclevels: 2
+:sectanchors:
 :description: A D-lang GUI for Bitwarden
 :tip-caption: :bulb:
 :note-caption: :information_source:
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
+
+ifndef::env-github[]
+image:https://img.shields.io/github/contributors/AMDphreak/d-warden.svg?style=for-the-badge[Contributors,link=https://github.com/AMDphreak/d-warden/graphs/contributors]
+image:https://img.shields.io/github/forks/AMDphreak/d-warden.svg?style=for-the-badge[Forks,link=https://github.com/AMDphreak/d-warden/network/members]
+image:https://img.shields.io/github/stars/AMDphreak/d-warden.svg?style=for-the-badge[Stars,link=https://github.com/AMDphreak/d-warden/stargazers]
+image:https://img.shields.io/github/issues/AMDphreak/d-warden.svg?style=for-the-badge[Issues,link=https://github.com/AMDphreak/d-warden/issues]
+endif::[]
+
+ifdef::env-github[]
+image:https://img.shields.io/github/contributors/AMDphreak/d-warden.svg?style=for-the-badge[Contributors]
+image:https://img.shields.io/github/forks/AMDphreak/d-warden.svg?style=for-the-badge[Forks]
+image:https://img.shields.io/github/stars/AMDphreak/d-warden.svg?style=for-the-badge[Stars]
+image:https://img.shields.io/github/issues/AMDphreak/d-warden.svg?style=for-the-badge[Issues]
+endif::[]
+
+= D-Warden
+
+A modern, cross-platform GUI client for Bitwarden built with the D programming language.
+
+link:https://github.com/AMDphreak/d-warden/issues[Report Bug] ·
+link:https://github.com/AMDphreak/d-warden/issues[Request Feature]
+
+== About The Project
 
 D-Warden is a modern, cross-platform GUI client for Bitwarden built with the D programming language.
 
@@ -15,24 +41,30 @@ D-Warden is a modern, cross-platform GUI client for Bitwarden built with the D p
 * [ ] Password generation
 * [ ] Cross-platform support
 
-== Packaging & Installation
+== Installation
+
+=== Packaging
 
 The app's installer is configured to optimize Start Menu search. By using tokenized descriptions, users can find the app using keywords like "bit", "warden", and "password" without conflicting with other "bitwarden" results.
 
 Refer to `installer/setup.iss` for the Inno Setup configuration.
-
-
-== Getting Started
 
 === Prerequisites
 
 * D compiler (DMD, LDC, or GDC)
 * DUB (package manager)
 
-=== Documentation
+== Usage
 
 Documentation is managed using Antora and can be found in the `docs/` folder.
 
 == License
 
-TBD
+See the repository for license terms.
+
+== Contact
+
+Ryan Johnson — link:https://twitter.com/amdphreak[@amdphreak]
+
+* Project: https://github.com/AMDphreak/d-warden
+* Site: https://ryanjohnson.dev
