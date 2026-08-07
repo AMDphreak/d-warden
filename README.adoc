@@ -9,7 +9,27 @@ ifndef::env-github[:icons: font]
 :caution-caption: :fire:
 :warning-caption: :warning:
 
-[[readme-top]]
+ifdef::env-github[]
+++++
+<a id="readme-top"></a>
+<div align="center">
+<a href="https://github.com/AMDphreak/d-warden/graphs/contributors"><img src="https://img.shields.io/github/contributors/AMDphreak/d-warden.svg?style=for-the-badge" alt="Contributors"></a>
+<a href="https://github.com/AMDphreak/d-warden/network/members"><img src="https://img.shields.io/github/forks/AMDphreak/d-warden.svg?style=for-the-badge" alt="Forks"></a>
+<a href="https://github.com/AMDphreak/d-warden/stargazers"><img src="https://img.shields.io/github/stars/AMDphreak/d-warden.svg?style=for-the-badge" alt="Stars"></a>
+<a href="https://github.com/AMDphreak/d-warden/issues"><img src="https://img.shields.io/github/issues/AMDphreak/d-warden.svg?style=for-the-badge" alt="Issues"></a>
+<br />
+<h3 align="center">D-Warden</h3>
+<p align="center">
+A modern, cross-platform GUI client for Bitwarden built with the D programming language.<br />
+<a href="https://github.com/AMDphreak/d-warden/issues">Report Bug</a>
+&middot;
+<a href="https://github.com/AMDphreak/d-warden/issues">Request Feature</a>
+</p>
+</div>
+++++
+endif::[]
+
+ifndef::env-github[]
 image:https://img.shields.io/github/contributors/AMDphreak/d-warden.svg?style=for-the-badge[Contributors,link=https://github.com/AMDphreak/d-warden/graphs/contributors]
 image:https://img.shields.io/github/forks/AMDphreak/d-warden.svg?style=for-the-badge[Forks,link=https://github.com/AMDphreak/d-warden/network/members]
 image:https://img.shields.io/github/stars/AMDphreak/d-warden.svg?style=for-the-badge[Stars,link=https://github.com/AMDphreak/d-warden/stargazers]
@@ -21,6 +41,8 @@ A modern, cross-platform GUI client for Bitwarden built with the D programming l
 
 link:https://github.com/AMDphreak/d-warden/issues[Report Bug] ·
 link:https://github.com/AMDphreak/d-warden/issues[Request Feature]
+endif::[]
+
 
 == About The Project
 
