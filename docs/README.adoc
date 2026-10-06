@@ -30,7 +30,7 @@ pnpm install
 
 === Packages
 
-* `antora-dark-theme`: Provides a dark UI for the documentation.
+* `antora-dark-mode`: Provides a dark UI for the documentation.
 
 == Building the Docs
 
